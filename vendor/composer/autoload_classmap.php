@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'LCRun3' => $vendorDir . '/zordius/lightncandy/src/lightncandy.php',
     'LightnCandy' => $vendorDir . '/zordius/lightncandy/src/lightncandy.php',
+    'SebastianBergmann\\Git' => $vendorDir . '/sebastian/git/src/Git.php',
 );
