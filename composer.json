@@ -1,6 +1,7 @@
 {
     "require": {
         "monolog/monolog": "1.0.*",
-        "zordius/lightncandy": "*"
+        "zordius/lightncandy": "*",
+        "sebastian/git": "1.0.*"
     }
 }
