@@ -1,7 +1,7 @@
 {
   "repositories": [{
     "type": "vcs",
-    "url": "git@bitbucket.org:conversion-partners/dashboard-server.git"
+    "url": "git@github.com:conversion-partners/dashboard-server.git"
   }],
   "require": {
     "monolog/monolog": "1.0.*",
