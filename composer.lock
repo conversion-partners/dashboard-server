@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/conversion-partners/dashboard-server-package",
-                "reference": "d0154c7cb978a643525ed29c02e2a0939594f04f"
+                "reference": "f699a1d4a6874dc110237a37247b20574e9db469"
             },
             "type": "library",
             "autoload": {
@@ -27,7 +27,7 @@
                 }
             ],
             "description": "server part of dashboard project",
-            "time": "2015-08-29 16:26:44"
+            "time": "2015-08-29 19:12:24"
         },
         {
             "name": "monolog/monolog",
