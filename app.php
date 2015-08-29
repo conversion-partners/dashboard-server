@@ -1,5 +1,14 @@
 <?php
 
+require __DIR__.'/vendor/autoload.php';
+use Monolog\Logger;
+
+// create a log channel
+$log = new Logger('name');
+
+use Dashboardserver\Server;
+
+$server = new Server();
 
 require 'vendor/zordius/lightncandy/src/lightncandy.php';
 
