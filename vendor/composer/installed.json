@@ -140,5 +140,30 @@
         "keywords": [
             "git"
         ]
+    },
+    {
+        "name": "conversion-partners/dashboard-server-package",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/conversion-partners/dashboard-server-package",
+            "reference": "7f52305770bcb306d5b75585d4a55b6ca53aab11"
+        },
+        "time": "2015-08-29 11:21:13",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Dashboardserver": "src/"
+            }
+        },
+        "authors": [
+            {
+                "name": "Robert Cooke",
+                "email": "robertjessecooke@gmail.com"
+            }
+        ],
+        "description": "server part of dashboard project"
     }
 ]

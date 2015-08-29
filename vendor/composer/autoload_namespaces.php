@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Monolog' => array($vendorDir . '/monolog/monolog/src'),
+    'Dashboardserver' => array($vendorDir . '/conversion-partners/dashboard-server-package/src'),
 );

@@ -4,8 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea4db3f6276bd70d03e9325b624eb2d7",
+    "hash": "1d4096cbbe59085facb8cb4021feaa3a",
     "packages": [
+        {
+            "name": "conversion-partners/dashboard-server-package",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/conversion-partners/dashboard-server-package",
+                "reference": "7f52305770bcb306d5b75585d4a55b6ca53aab11"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Dashboardserver": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Robert Cooke",
+                    "email": "robertjessecooke@gmail.com"
+                }
+            ],
+            "description": "server part of dashboard project",
+            "time": "2015-08-29 11:21:13"
+        },
         {
             "name": "monolog/monolog",
             "version": "1.0.2",
@@ -146,7 +169,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "conversion-partners/dashboard-server-package": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
