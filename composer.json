@@ -3,8 +3,8 @@
     "type": "git",
     "url": "https://github.com/conversion-partners/dashboard-server-package"
   }],
-  "require-dev": {
-  },
+  "minimum-stability": "dev",
+  "require-dev": {},
   "require": {
     "conversion-partners/dashboard-server-package": "dev-master"
   }
