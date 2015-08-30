@@ -6,8 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'phpDocumentor' => array($vendorDir . '/phpdocumentor/reflection-docblock/src'),
-    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
     'Monolog' => array($vendorDir . '/monolog/monolog/src'),
+    'Dashboardserver\\Tests' => array($vendorDir . '/conversion-partners/dashboard-server-package/tests'),
     'Dashboardserver' => array($vendorDir . '/conversion-partners/dashboard-server-package/src'),
 );
